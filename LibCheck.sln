@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCheck.Core", "LibCheck.Core\LibCheck.Core.csproj", "{89D607DF-2E53-4672-9DAC-8366AAFDC9C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCheck", "LibCheck\LibCheck.csproj", "{881C3A7D-FB8A-4D26-AD6A-C785699C033D}"
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCheck.Model", "LibCheck.Model\LibCheck.Model.csproj", "{CA2AC864-E2FB-4846-AF88-E23008FE521C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCheck.Plugins.Ursynoteka", "LibCheck.Plugins.Ursynoteka\LibCheck.Plugins.Ursynoteka.csproj", "{39B084AC-3CC8-45F6-B3B1-B07D0E760F01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{A6ADA51E-A7E7-47BE-B76E-0E59B5E04B87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,5 +76,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39B084AC-3CC8-45F6-B3B1-B07D0E760F01} = {A6ADA51E-A7E7-47BE-B76E-0E59B5E04B87}
 	EndGlobalSection
 EndGlobal
