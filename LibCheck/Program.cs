@@ -36,6 +36,7 @@ namespace LibCheck
         {
             foreach (var item in items)
             {
+                Console.WriteLine();
                 Console.WriteLine("Title: {0}", item.Title);
                 Console.WriteLine("Author: {0}", item.Author);
 
