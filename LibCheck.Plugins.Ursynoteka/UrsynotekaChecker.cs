@@ -46,7 +46,7 @@ namespace LibCheck.Plugins.Ursynoteka
 
                 string [] titleAuthor = m.Groups[4].ToString().Split(new string [] {" / "}, StringSplitOptions.RemoveEmptyEntries);
 
-                item.Author = titleAuthor[1].Substring(0, titleAuthor[1].IndexOf(" "));
+                item.Author = titleAuthor[1].Substring(0, titleAuthor[1].IndexOf("\r"));
                 item.LibraryName = m.Groups[2].ToString();
                 item.ReturnDate = DateTime.ParseExact(m.Groups[3].ToString(), "dd.MM.yyyy", CultureInfo.InvariantCulture);
                 item.Title = titleAuthor[0];
